@@ -1,0 +1,25 @@
+html, body {
+  height:100%;
+}
+
+.container-fluid {
+  background-image:url(background.jpg);
+  background-size:cover;
+  background-position:center;
+  padding-top:150px;
+  height: 100%;
+}
+
+.white-text {
+  color:white;
+  text-shadow: 1px 1px #000000;
+}
+
+p, input, button {
+  margin-top:15px;
+}
+
+#weatherOutput {
+  margin-top:20px;
+  display:none;
+}
